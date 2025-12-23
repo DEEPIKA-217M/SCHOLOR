@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+:root {
+  --pink: #EC4899;
+  --purple: #7C3AED;
+  --green: #22C55E;
+  --light-bg: #FFF7FB;
+  --dark-text: #1F2937;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #FFF7FB, #F5F3FF);
+  color: var(--dark-text);
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: white;
+  box-shadow: 0 10px 25px rgba(236, 72, 153, 0.15);
+}
+
+.navbar h2 {
+  color: var(--purple);
+  font-weight: 600;
+}
+
+.navbar a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: var(--pink);
+  font-weight: 500;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 90px 20px;
+}
+
+.hero h1 {
+  font-size: 38px;
+  color: var(--purple);
+}
+
+.hero p {
+  max-width: 650px;
+  margin: 20px auto 30px;
+  font-size: 16px;
+}
+
+/* BUTTONS */
+.btn {
+  padding: 12px 26px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.btn.primary {
+  background: linear-gradient(135deg, var(--pink), var(--purple));
+  color: white;
+}
+
+.btn.primary:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(124, 58, 237, 0.35);
+}
+
+/* FEATURES */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 40px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  width: 260px;
+  border-radius: 18px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.card h3 {
+  color: var(--pink);
+  margin-bottom: 10px;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 600px;
+  margin: 80px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(124, 58, 237, 0.2);
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+  margin: 15px 0;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #E5E7EB;
+}
+
+.file-input {
+  margin: 15px 0;
+}
+
+/* RESULTS */
+.result-card {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.progress {
+  background: #F1F5F9;
+  height: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress div {
+  height: 10px;
+  border-radius: 10px;
+}
+
+.ai {
+  background: linear-gradient(135deg, var(--pink), var(--purple));
+}
+
+.human {
+  background: var(--green);
+}
+
+/* ALERT */
+.alert {
+  background: #FDF2F8;
+  color: var(--pink);
+  padding: 12px;
+  border-radius: 12px;
+  margin: 20px 0;
+  font-weight: 500;
+}
+
+/* VERDICT */
+.verdict {
+  margin: 20px 0;
+  font-size: 18px;
+  color: var(--purple);
+  font-weight: 600;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  color: #6B7280;
+}
+

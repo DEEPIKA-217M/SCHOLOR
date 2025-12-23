@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Upload or Paste Research Content</h2>
+
+  <input type="file" class="file-input">
+
+  <p class="or">OR</p>
+
+  <textarea placeholder="Paste academic text here..."></textarea>
+
+  <button class="btn primary" onclick="analyze()">Analyze Document</button>
+</div>
+
+<script>
+  function analyze() {
+    window.location.href = "result.html";
+  }
+</script>
+
+</body>
+</html>
